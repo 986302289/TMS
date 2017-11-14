@@ -11,7 +11,7 @@
 	href="<%=request.getContextPath()%>/framework/mian/main.css">
 </head>
 <body>
-	<div id="app">
+	<div id="mainapp">
 		<el-container class="height">
 		  <el-aside  class="left">
 		  	<div class="top_left" align="center" onclick="ref()" onselectstart="return false;"><!-- 设置文字不可选择 -->
@@ -19,7 +19,6 @@
 		  		<strong>TM</strong></span>
 		  	</div>
 		    <el-menu 
-		      :default-openeds="['1', '3']"
 		      class="el-menu-vertical-demo"
 		      @open="handleOpen"
 		      @close="handleClose"
@@ -65,7 +64,7 @@
 		  </el-container>
 		</el-container>
 	</div>
-<script
+	<script
 	src="<%=request.getContextPath()%>/framework/jquery/jquery-1.12.0.min.js"></script>
 <script
 	src="<%=request.getContextPath()%>/framework/jquery/jquery-migrate-1.3.0.min.js"></script>
