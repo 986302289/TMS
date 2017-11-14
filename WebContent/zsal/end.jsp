@@ -20,10 +20,10 @@ html body {
 		<span style="font-size: 36px;"><strong><br /></strong></span>
 	</p>
 	<p style="line-height: normal;">
-		<span style="font-size: 36px;"><strong><br /></strong></span>
+		
 	</p>
 	<p style="line-height: normal; text-align: center;">
-		<span style="font-size: 36px;"><strong>待开发。。。</strong></span>
+		<img alt="" src="<%=request.getContextPath()%>/framework/image/funny.gif"><span style="font-size: 36px;"><strong>待开发。。。</strong></span>
 	</p>
 </body>
 </html>
