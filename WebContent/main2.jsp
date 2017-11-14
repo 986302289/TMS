@@ -60,7 +60,7 @@
 		    </el-header>
 		    
 		    <el-main>
-		      <iframe src="/TMS/test.html"id="iframecon" name="iframepage" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%" onLoad="iFrameHeight()"></iframe>
+		      <iframe src="<%=request.getContextPath()%>/zsal/end.jsp"id="iframecon" name="iframepage" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%" onLoad="iFrameHeight()"></iframe>
 		    </el-main>
 		  </el-container>
 		</el-container>
