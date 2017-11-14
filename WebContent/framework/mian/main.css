@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+.el-header {
+	background-color: #59cefd;
+	color: #333;
+	line-height: 60px;
+}
+
+.el-aside {
+	color: #333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.height {
+	height: 100%;
+}
+
+.left {
+	background-color: rgb(238, 241, 246);
+}
+
+.top_left {
+	height: 60px;
+	line-height: 60px;
+	background: #59cefd;
+	cursor: pointer;
+}
+
+.top_left_font {
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-family: & quot;
+	andale
+	mono&quot;;
+}
