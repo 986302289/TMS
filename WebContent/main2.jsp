@@ -5,8 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>TMS</title>
-<link rel="stylesheet"
-	href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<link  href="<%=request.getContextPath()%>/framework/element/index.css" rel="stylesheet" type="text/css">
+<link  href="<%=request.getContextPath()%>/framework/element/css/default.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/framework/mian/main.css">
 </head>
